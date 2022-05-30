@@ -1,0 +1,60 @@
+
+
+List of queries to be made 
+
+50k Tesla
+50k Tesla Cars 
+30k Tesla Car Safety 
+30k Tesla Workers 
+30k Tesla solar 
+30k Telsa AI 
+30k Tesla Batteries 
+
+Tesla
+Tesla
+Tesla
+Tesla
+Tesla
+Tesla
+Tesla
+
+Other Companies to query ? 
+for comaprison i suppose 
+
+BYD
+NKLA
+
+
+
+
+
+
+
+
+
+
+
+List of queries made 
+
+
+
+#Tested --- Works very well with seemingly no limit to the cap of tweets returned 
+query = "Tesla lang:en -is:retweet -@elonmusk"
+
+tweets = {}
+for tweet in tweepy.Paginator(client.search_recent_tweets, query = query, max_results = 100).flatten(limit = 10000):
+    tweets[tweet.id] = tweet.text
+
+
+
+
+
+
+
+# tested - this one works very well 
+query = "Tesla cars lang:en -is:retweet -@elonmusk"
+
+response = client.search_recent_tweets(query = query,
+                                      max_results = 5,
+                                      tweet_fields = ['created_at,lang'], 
+                                      expansions = ['geo.place_id'])
