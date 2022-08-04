@@ -28,7 +28,7 @@ Preprocessing steps were applied to each of the documents, these steps included:
 - Removal of tweets shorter than 5 tokens
 - Removal of tokens appearing in less than 10 documents or in more than 95% of documents
 
-** EDA **
+**EDA**
 
 Show Tweet lengths (Character word plot)
 Show Sentiment Distribution (Only if Sentiment is to be removed from the final plot, make a new final plot)
