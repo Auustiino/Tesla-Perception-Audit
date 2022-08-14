@@ -58,19 +58,17 @@ And here's a cool WordCloud
 ## Useful Findings
 
 Show final graph with removed 0 sentiment Values
-Pair this with a list of topic explanations for each one, making the chart make sense
+
+<img src = 'img/fin-sent-axes.png' alt = 'Final Sentiments' height = '600' width = '800'>
+
+Show topic keywords and then explanations
+
+<img src = 'img/Topic-Keywords.png' alt = 'Final Sentiments' height = '200' width = '600'>
+
 
 ## Improvements
 
 The Data
 From the beginning, knowing how LDA works (prove this before posting) I should have known that using tweets with a max character count of 140 and an average word length of XX that LDA for Topic Modeling wpuld not work. Other Topic Modeling algorithims were tried (like GSDMM) but were equally unsuccesful is getting coherent topics
-
-
-
-
-<img src = 'Report/Pearson-corr.png' alt = 'Pearson Correlation' height = '400' width = '600'>
-
-
-
 
 
