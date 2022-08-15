@@ -95,9 +95,3 @@ This topic is noticeably more positive than the others, indicating that in gener
 Tesla inc.’s cars, stocks and positive impact dominated the discussion surrounding the company during the period in which the data was collected. We learned that the company’s positive impact and electric vehicles are discussed most positively although with the sentiment scale being (-1, 1) receiving a 0.2 is still not amazing. We suggest the company focus on emphasizing their positive contributions to society. We also learned that an incident in which a Tesla vehicle caught fire, trapping a passenger inside, made a ripple in online discussion. Although the topic was not evaluated to be being discussed in a negative way, this incident could reduce a potential customer’s confidence in the vehicles, raising questions about safety. This issue should be addressed directly. 
 
 
-## Improvements
-
-The Data
-From the beginning, knowing how LDA works (prove this before posting) I should have known that using tweets with a max character count of 140 and an average word length of XX that LDA for Topic Modeling wpuld not work. Other Topic Modeling algorithims were tried (like GSDMM) but were equally unsuccesful is getting coherent topics
-
-
