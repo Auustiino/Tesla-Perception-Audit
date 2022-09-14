@@ -4,9 +4,11 @@
 
 ## Objective
 
-The goal with this project is to explore to what extenet public sentiment and discourse can be captured surrounding Tesla Inc. 
-<br>
-What topics surrounding Tesla concern the public the most and how are these topics being discussed. 
+The goal of this project is to identify to what extent public discourse and sentiment surrounding Tesla Inc. can be captured from social media data. <br>
+From this;
+- What topics within the discourse are most prominent? <br>
+- In what ways are the company's public image lacking? <br>
+- How can it be improved? <br>
 
 
 # The Data, Preperation and EDA
